@@ -1,6 +1,18 @@
 <?php
 include 'index-template/header.php';
 ?>
+<!-- login error messages -->
+<div class="container">
+    <?php
+    if (isset($_SESSION['message'])) {
+        ?>
+        <div class="alert alert-danger">
+            <strong><?=$_SESSION['message']?></strong>
+        </div>
+    <?php
+    }
+    ?>
+</div>
 
 <!-- this will be the default display for coverpage, else will be replaced what's been updated in CMS -->
 <div class="container-fluid d-flex justify-content-center py-5 bg-info">
@@ -16,7 +28,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
@@ -34,7 +47,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
                 </div>
             </div>
         </div>
@@ -43,7 +57,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
@@ -58,7 +73,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
@@ -76,7 +92,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
                 </div>
             </div>
         </div>
@@ -85,7 +102,8 @@ include 'index-template/header.php';
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
@@ -95,5 +113,6 @@ include 'index-template/header.php';
 
 
 <?php
+session_unset();
 include 'index-template/footer.php';
 ?>
