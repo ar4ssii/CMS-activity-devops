@@ -24,37 +24,37 @@
         </div>
 
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Name:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Name:</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control mb-2" placeholder="Enter School Name" name="" id="">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Location:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Location:</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control mb-2" placeholder="Enter School's Location" name="" id="">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Email Address:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Email Address:</label>
             <div class="col-sm-10">
                 <input type="email" class="form-control mb-2" placeholder="Enter School's Email Address" name="" id="">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Mobile Number:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Mobile Number:</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control mb-2" placeholder="Enter School's Mobile Number" name="" id="">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Telephone Number:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Telephone Number:</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control mb-2" placeholder="Enter School's Telephone Number" name="" id="">
             </div>
         </div>
         <div class="mb-3 row">
-            <label for="" class="col-sm-2 col-form-label text-end">Description:</label>
+            <label for="" class="col-sm-2 col-form-label text-end text-end-to-left">Description:</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control mb-2" placeholder="Enter Description" name="" id="">
             </div>
@@ -75,7 +75,7 @@
                 <div class="card h-100 shadow">
                     <img src="https://www.pixelstalk.net/wp-content/uploads/images4/7698x4330-Night-Mountains-Summer-Illustration-8K-Wallpaper_-HD-Artist-4K-Wallpaper_-Image_-Photo-and-scaled.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <input type="text" placeholder="Insert Title" class="form-control border-0">
+                        <input type="text" placeholder="Insert Title" class="form-control border-0 mb-3">
                         <textarea name="" placeholder="Insert Caption" id="" cols="30" rows="2" class="form-control border-0"></textarea>
                     </div>
                     <div class="card-footer">
@@ -105,7 +105,7 @@
                 <div class="card h-100 shadow">
                     <img src="https://i.ytimg.com/vi/cHFLJV-a_ts/hqdefault.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <input type="text" placeholder="Insert Title" class="form-control border-0">
+                        <input type="text" placeholder="Insert Title" class="form-control border-0 mb-3">
                         <textarea name="" placeholder="Insert Caption" id="" cols="30" rows="2" class="form-control border-0"></textarea>
                     </div>
                     <div class="card-footer">
