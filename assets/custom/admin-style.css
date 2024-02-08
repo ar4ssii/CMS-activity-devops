@@ -74,12 +74,12 @@
 
     /* Position the icon at the top right corner on small screens */
     .bottom-icon {
-        top: 20px;
+        top: 10px;
         left: auto;
         right: 16px;
         display: flex;
         justify-content: flex-end;
-        align-items: flex-end;
+        align-items: center;
     }
 
     /* Style page content */

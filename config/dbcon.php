@@ -1,7 +1,7 @@
 <?php
     $username = "root";
     $password = "";
-    $dbname= "db_enrollment";
+    $dbname= "cms_activity";
     $servername = "localhost";
     $conn = mysqli_connect($servername, $username, $password, $dbname);
 

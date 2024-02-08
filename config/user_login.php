@@ -18,7 +18,7 @@ if (strpos($username,"@admin") !== false && $result->num_rows > 0)
     $userID = $row["userID"];
     $_SESSION['userID'] =  $userID;
 
-    header("location: ../admin-files/enrollmentSystem.php");
+    header("location: ../admin-files/cms.php");
 } 
 else if (strpos($username,"@student") !== false && $result->num_rows > 0) 
 {
@@ -28,5 +28,6 @@ else if (strpos($username,"@student") !== false && $result->num_rows > 0)
 else
 {
     $_SESSION['message'] = 'Incorrect Username or Password';
+    $_SESSION['bg-color'] = 'warning';
     header('location: ../index.php');
 }
